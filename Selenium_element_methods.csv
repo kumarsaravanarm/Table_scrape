@@ -1,0 +1,21 @@
+0,1
+Element,Methods Description
+is_selected(),is_selected method is used to check if element is selected or not. It returns a boolean value True or False.
+is_displayed(),is_displayed method is used to check if element it visible to user or not. It returns a boolean value True or False.
+is_enabled(),is_enabled method is used to check if element is enabled or not. It returns a boolean value True or False.
+get_property(),"get_property method is used to get properties of an element, such as getting text_length property of anchor tag."
+get_attribute(),"get_attribute method is used to get attributes of an element, such as getting href attribute of anchor tag."
+send_keys(),"send_keys method is used to send text to any field, such as input field of a form or even to anchor tag paragraph, etc."
+click(),"click method is used to click on any element, such as an anchor tag, a link, etc."
+clear(),"clear method is used to clear text of any field, such as input field of a form or even to anchor tag paragraph, etc."
+screenshot(),screenshot method is used to save a screenshot of current element to a PNG file.
+submit(),submit method is used to submit a form after you have sent data to a form.
+value_of_css_property(),value_of_css_property method is used to get value of a css property for a element.
+location,location method is used to get location of element in renderable canvas.
+screenshot_as_png,screenshot_as_png method is used to gets the screenshot of the current element as binary data.
+parent,parent method is used to get internal reference to the WebDriver instance this element was found from.
+size,size method is used to get size of current element.
+tag_name,tag_name method is used to get name of tag you are referring to.
+text,text method is used to get text of current element.
+rect,rect method is used to get a dictionary with the size and location of the element.
+screenshot_as_base64,screenshot_as_base64 method is used to gets the screenshot of the current element as a base64 encoded string.

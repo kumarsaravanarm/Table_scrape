@@ -1,0 +1,34 @@
+0,1
+Method,Description
+add_cookie,This method is used to add cookies to the user’s current session.
+back,This method allows you to move one page back.
+close,This method will close the current window.
+create_web_element,This method will create a web element having a specific element_id.
+delete_all_cookies,It will help you delete all the cookies in the current session’s scope.
+delete_cookie,It will only delete a single cookie based on the name.
+execute_async_script,It will execute JavaScript asynchronously in the current frame.
+execute_script,It will execute JavaScript synchronously in the current frame.
+forward,It will help you go one page forward.
+fullscreen_window,This method will invoke a ‘full screen’ operation specific to the window manager.
+get_cookie,"It will return a cookie if found, or else none."
+get_cookies,"It will return a bunch of dictionaries, each corresponding to the cookies that are currently visible in the present session."
+get_log,"For a log type, you will get all the logs."
+get_screenshot_as_base64,You can get a screenshot of the present window as a base64 encoded string.
+get_screenshot_as_file,You will get the screenshot of the present window as a binary file.
+get_screenshot_as_png,It will save a screenshot of the present window as a PNG file.
+get_window_position,You will get the coordinates of the present window.
+get_window_rect,You will get the coordinates of the present window along with the width and height.
+get_window_size,You will get only the height and width of the present window.
+implicitly_wait,You will be able to set a timeout to wait implicitly for an event to occur.
+maximize_window,You can maximize the present window that is being used by the web driver.
+minimize_window,You will be able to minimize the present window.
+quit,"You will be able to quit the driver, closing all the associated windows."
+refresh,You will be able to refresh the current frame.
+set_page_load_timeout,It will allow you to set a time to wait before page loads or else it will throw an error.
+set_script_timeout,You will be able to set the time that the script needs to wait during the call of an execute_async_script before yielding an error.
+set_window_position,You will be able to set the coordinates of the current window.
+set_window_rect,You will be able to set the coordinates of the current window along with the height and width.
+current_url,You can get the URL of the web page.
+current_window_handle,You can get the handle of the window.
+page_source,You will get the current page’s source.
+title,It will return the current page’s title.

@@ -1,0 +1,21 @@
+0,1
+Element Methods,Description
+is_selected(),This method returns a boolean value based on whether the element is selected or not.
+is_displayed(),This method returns a boolean value based on whether or not the element is displayed.
+is_enabled(),This method returns a boolean value based on whether or not the element is enabled.
+get_property(),"This method can be used to get the properties of a particular element, like text_length property, etc."
+get_attribute(),"This method can be used to get attributes of a particular element, like getting an href attribute, etc."
+send_keys(),This method is used to send a text property to any input field or even an anchor tag or a paragraph.
+click(),This method is used to click on any element.
+clear(),This method is used to clear the text of any input field.
+screenshot_as_png(),This method is used to take a screenshot of the current element.
+submit(),This method is used to submit a form.
+value_of_css_property(),This method is used to get the value of a specific element’s CSS property.
+location,This method is used to get the location of the elements.
+screenshot(),This method is used to take the screenshot in the form of binary data.
+parent,This method is used to get the parent of the current element.
+size,This method is used to receive the size of the current element.
+tag_name,This method is used to get the tag name.
+text,This method is used to get the text.
+rect,This method is used to get a dictionary containing the location and size of the element.
+screenshot_as_base64,This method is used to take the screenshot as a base64 encoded string.
